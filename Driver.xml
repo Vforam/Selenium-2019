@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Edureka">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="Regression">
+   <classes>
+   		<class name = "com.edureka.module10.EdurekaFramework2TestScripts"></class>
+   </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Edureka -->
